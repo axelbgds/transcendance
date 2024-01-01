@@ -1,0 +1,4 @@
+# Dependance utils for django check fastAPI
+
+Django==3.2  # ou une autre version de Django
+django-bootstrap4

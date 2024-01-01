@@ -1,0 +1,9 @@
+Vérification de l'État d'Elasticsearch
+docker inspect -f '{{ .State.Status }}' elastic
+
+
+Test de l'Accessibilité d'Elasticsearch
+curl http://localhost:9200
+
+
+Verifier la fonctionnalite de kibana - logs et les lancer 
